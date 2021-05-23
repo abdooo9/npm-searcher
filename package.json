@@ -1,0 +1,15 @@
+{
+  "name": "npm-searcher",
+  "version": "1.0.1",
+  "description": "npm packages searcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdooo9",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-fetch": "^2.6.1"
+  }
+}
