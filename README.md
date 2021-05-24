@@ -46,11 +46,11 @@ npm.search('express').then(res => {
 const npm = require('npm-searcher')
 
 npm.search('express').then(res => {
-	if (res) {
+    if (res) {
         console.log(res) // All information related to the express package
         console.log(res.name) // express
-	} else {
-		console.log("package not found");
+    } else {
+        console.log("package not found");
     }
 })
 ```
