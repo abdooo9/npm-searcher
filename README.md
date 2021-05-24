@@ -23,8 +23,8 @@ const npm = require('npm-searcher')
 
 async function getNpm() {
     const res = await npm.search('express')
-    cosnole.log(res) // All information related to the express package
-    cosnole.log(res.name) // express
+    console.log(res) // All information related to the express package
+    console.log(res.name) // express
 }
 getNpm()
 ``` 
@@ -35,8 +35,8 @@ getNpm()
 const npm = require('npm-searcher')
 
 npm.search('express').then(res => {
-    cosnole.log(res) // All information related to the express package
-    cosnole.log(res.name) // express
+    console.log(res) // All information related to the express package
+    console.log(res.name) // express
 })
 ```
 
@@ -46,14 +46,13 @@ npm.search('express').then(res => {
 const npm = require('npm-searcher')
 
 npm.search('express').then(res => {
-    if (res) {
-        cosnole.log(res) // All information related to the express package
-        cosnole.log(res.name) // express
-    } else {
-        console.log("package not found");
+	if (res) {
+        console.log(res) // All information related to the express package
+        console.log(res.name) // express
+	} else {
+		console.log("package not found");
     }
 })
 ```
-
 #### Contributing
 © npm-searcher, 2021 | abdooo9 (abdooo9.dev@gmail.com)
