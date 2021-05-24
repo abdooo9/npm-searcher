@@ -51,7 +51,7 @@ npm.search('express').then(res => {
         cosnole.log(res.name) // express
 	} else {
 		console.log("package not found");
-	}
+    }
 })
 ```
 
