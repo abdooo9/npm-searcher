@@ -1,13 +1,23 @@
 {
   "name": "npm-searcher",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "npm packages searcher",
+  "keywords": [
+    "npm-api",
+    "npm",
+    "npm-search",
+    "npm searcher",
+    "npm packages",
+    "nodejs",
+    "package searcher"
+  ],
   "main": "index.js",
+  "homepage": "https://github.com/abdooo9/npm-searcher",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "abdooo9",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0",
     "node-fetch": "^2.6.1"
